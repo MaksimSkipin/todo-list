@@ -1,0 +1,16 @@
+.empty_element {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.empty_title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.empty_text {
+  color: var(--secondary-text-color);
+}

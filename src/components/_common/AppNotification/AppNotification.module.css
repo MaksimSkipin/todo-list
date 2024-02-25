@@ -1,0 +1,22 @@
+.app_msg {
+  padding: 6px;
+  border-radius: var(--border-radius);
+  border: 1px solid;
+
+  &.success {
+    color: var(--success-color);
+    border-color: var(--success-color);
+  }
+
+  &.error {
+    color: var(--denger-color);
+    border-color: var(--denger-color);
+  }
+
+  &.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--white-color);
+  }
+}

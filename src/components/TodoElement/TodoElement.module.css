@@ -1,0 +1,38 @@
+.todo_element_item {
+  position: relative;
+  padding: 15px;
+  background: var(--white-color);
+  border-radius: var(--border-radius);
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo_element {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo_element_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  color: var(--success-color);
+}
+
+.not_completed {
+  color: var(--denger-color);
+}
+
+.todo_element_body {
+  flex: 1 1 100%;
+  padding-block: 12px;
+}
+
+.todo_element_footer {
+  padding-top: 12px;
+  border-top: var(--border);
+}
